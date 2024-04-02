@@ -1,0 +1,107 @@
+.header {
+    font-size: 30px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header2 {
+    font-size: 25px;
+    font-family: Norus;
+    color: #05212d;
+    text-decoration: none;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.card {
+    background-color: #1eff87;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.ul {
+    font-family: Norus;
+    font-size: 16px;
+    color: #732A20;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+ul li::marker {
+    color: #70abcc;
+}
+
+.lightbulb {
+    text-align: center;
+    color: #a27f1f;
+    font-size: 8rem;
+}
+
+.techheart {
+    text-align: center;
+    color: #2b799a;
+    font-size: 7rem;
+}
+
+.selfimg_container {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.selfimg {
+    width: 75%;
+    height: 75%;
+}
+
+.buttons {
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.button_ok {
+    height: 4rem;
+
+    background-color: rgb(164, 222, 155);
+    border: 2px solid #732A20;
+    border-radius: 14px;
+
+    font-size: 24px;
+    font-family: Norus;
+    color: #0c460f;
+    text-decoration: none;
+
+    margin-bottom: 15px;
+}
+
+.button_ok:hover {
+    border: 3px solid #732A20;
+
+}

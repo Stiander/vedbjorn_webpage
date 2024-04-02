@@ -1,0 +1,22 @@
+
+.header {
+    font-size: 15px;
+    font-family: Norus;
+    color: #05212d;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.paragraph {
+    font-size: 15px;
+    font-family: Norus;
+    color: #af5615;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.spinwrap {
+    margin: auto;
+}

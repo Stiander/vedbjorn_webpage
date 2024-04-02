@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /*background-image: url("./assets/construction.jpeg");*/
+    background-image: url("./assets/imageedit_1_6845832817.png");
+    /*background-image: url("./assets/autumn_background.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+
+    overflow-y: scroll; /* enable vertical scrolling */
+    overflow-x: hidden; /* disable horizontal scrolling */
+}
+
+.App::after {
+    content: "";
+
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+    overflow-y: scroll; /* enable vertical scrolling */
+    overflow-x: hidden; /* disable horizontal scrolling */
+}
+
+.App .Content {
+    padding-top: 100px;
+    text-align: center;
+
+    overflow-y: scroll; /* enable vertical scrolling */
+    overflow-x: hidden; /* disable horizontal scrolling */
+}
+
+html {
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: 'Norus';
+    src: local('Norus') , url("./assets/fonts/Norus/Norus.ttf") format('truetype');
+}

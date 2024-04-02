@@ -1,0 +1,162 @@
+
+.header {
+    font-size: 30px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header2 {
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+}
+
+.header3 {
+    font-size: 24px;
+    font-family: Norus;
+    color: #53C76FFF;
+    text-decoration: none;
+}
+
+.spinwrap {
+    margin: auto;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-family: Norus;
+    color: #05212d;
+    /*text-decoration: none;*/
+    /*text-align: left;*/
+    /*padding-left: 1rem;*/
+}
+
+.paragraph2 {
+    font-size: 14px;
+    font-family: Norus;
+    color: #05212d;
+    text-decoration: none;
+}
+
+.centralize {
+    text-align: center;
+    align-items: center;
+}
+
+.checkbox {
+    background-color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+
+    font-size: 24px;
+    border: 2px solid #05212d;
+    border-radius: 4px;
+    color: #05212d;
+
+}
+
+
+.buttons {
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.button_cancel {
+    height: 4rem;
+
+    background-color: rgb(229, 162, 134);
+    border: 2px solid #732A20;
+    border-radius: 14px;
+
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+
+    margin-bottom: 15px;
+}
+
+.button_cancel:hover {
+    border: 3px solid #732A20;
+
+}
+
+.button_ok {
+    height: 4rem;
+
+    background-color: rgb(83, 199, 111);
+    border: 2px solid #53C76FFF;
+    border-radius: 14px;
+
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.button_ok:hover {
+    border: 3px solid #732A20;
+}
+
+.innercard {
+    max-width: 30rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background-color: #e7e7e7;
+    padding: 5px 5px 5px 5px;
+    /*margin: 15px 15px 15px 15px;*/
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+
+.innercard_emphasize {
+    max-width: 30rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background-color: #a4c3f3;
+    padding: 5px 5px 5px 5px;
+    /*margin: 15px 15px 15px 15px;*/
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-areas:
+        'leftmost left middle right rightmost';
+}
+
+.gridleft {
+    grid-area: leftmost;
+    text-align: left;
+}
+
+.gridright {
+    grid-area: rightmost;
+    text-align: center;
+    font-size: 18px;
+}
+
+.gridmid {
+    grid-area: middle;
+    text-align: center;
+    font-size: 18px;
+}
+
+.downloadicon {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}

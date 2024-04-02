@@ -1,0 +1,76 @@
+
+.header {
+    display: grid;
+    grid-template-areas: "logo nav";
+    background-color: rgb(225, 202, 187);
+}
+
+.logo {
+    width: 175px;
+    height: 175px;
+}
+
+.header nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.header_av_item {
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+}
+
+.header_av_item:hover {
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: underline;
+}
+
+.burger {
+    display: none;
+}
+
+.header button {
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+
+    background-color: transparent;
+    border: 2px solid #732A20;
+    padding: 0.5rem 0.5rem;
+}
+
+.header button:hover {
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1400px) {
+    .header {
+        grid-template-areas: "logo burger" "nav nav";
+    }
+
+    .header nav {
+        grid-template-rows: repeat(7, auto);
+        grid-template-columns: none;
+        grid-row-gap: 20px;
+    }
+
+    .burger {
+        display: block;
+        color: #732A20;
+        font-size: 50px;
+        margin-left: auto;
+        padding-top: 20px;
+        padding-right: 50px;
+    }
+}
+

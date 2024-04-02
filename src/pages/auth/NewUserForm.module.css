@@ -1,0 +1,59 @@
+
+.newuserform_header {
+    font-size: 30px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    height: 0.5rem;
+
+    font-family: Norus;
+    color: #05212d;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.buttons {
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.button_cancel {
+    height: 4rem;
+
+    background-color: rgb(229, 162, 134);
+    border: 2px solid #732A20;
+    border-radius: 14px;
+
+    font-size: 24px;
+    font-family: Norus;
+    color: #732A20;
+    text-decoration: none;
+
+    margin-bottom: 15px;
+}
+
+.button_cancel:hover {
+    border: 3px solid #732A20;
+
+}
+
+@media (min-width: 700px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}
